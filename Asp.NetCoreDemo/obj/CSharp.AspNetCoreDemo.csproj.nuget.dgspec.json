@@ -1,0 +1,165 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\GitHub\\VS designer Core\\Asp.NetCoreDemo\\CSharp.AspNetCoreDemo.csproj": {}
+  },
+  "projects": {
+    "D:\\GitHub\\VS designer Core\\Asp.NetCoreDemo\\CSharp.AspNetCoreDemo.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\GitHub\\VS designer Core\\Asp.NetCoreDemo\\CSharp.AspNetCoreDemo.csproj",
+        "projectName": "CSharp.AspNetCoreDemo",
+        "projectPath": "D:\\GitHub\\VS designer Core\\Asp.NetCoreDemo\\CSharp.AspNetCoreDemo.csproj",
+        "packagesPath": "C:\\Users\\arabadzhiev\\.nuget\\packages\\",
+        "outputPath": "D:\\GitHub\\VS designer Core\\Asp.NetCoreDemo\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\arabadzhiev\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "D:\\TelerikLocalPackages": {},
+          "\\\\telerik.com\\resources\\Nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "D:\\GitHub\\VS designer Core\\CoreReportLibrary\\CoreReportLibrary.csproj": {
+                "projectPath": "D:\\GitHub\\VS designer Core\\CoreReportLibrary\\CoreReportLibrary.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "DocumentFormat.OpenXml": {
+              "target": "Package",
+              "version": "[2.7.2, )"
+            },
+            "Microsoft.AspNetCore": {
+              "target": "Package",
+              "version": "[2.1.6, )"
+            },
+            "Microsoft.AspNetCore.StaticFiles": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
+            "Telerik.Reporting.OpenXmlRendering": {
+              "target": "Package",
+              "version": "[14.2.20.1021, )"
+            },
+            "Telerik.Reporting.Services.AspNetCore": {
+              "target": "Package",
+              "version": "[14.2.20.1021, )"
+            },
+            "Telerik.WebReportDesigner.Services": {
+              "target": "Package",
+              "version": "[14.2.20.1021, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\GitHub\\VS designer Core\\CoreReportLibrary\\CoreReportLibrary.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\GitHub\\VS designer Core\\CoreReportLibrary\\CoreReportLibrary.csproj",
+        "projectName": "CoreReportLibrary",
+        "projectPath": "D:\\GitHub\\VS designer Core\\CoreReportLibrary\\CoreReportLibrary.csproj",
+        "packagesPath": "C:\\Users\\arabadzhiev\\.nuget\\packages\\",
+        "outputPath": "D:\\GitHub\\VS designer Core\\CoreReportLibrary\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\arabadzhiev\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "D:\\TelerikLocalPackages": {},
+          "\\\\telerik.com\\resources\\Nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "System.Resources.Extensions": {
+              "target": "Package",
+              "version": "[5.0.0-rc.2.20475.5, )"
+            },
+            "Telerik.Reporting": {
+              "target": "Package",
+              "version": "[14.2.20.1021, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
